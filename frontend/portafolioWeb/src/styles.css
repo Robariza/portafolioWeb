@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --fontLato: 'Lato', sans-serif;
+    --fontMontserrat: 'Montserrat', sans-serif;
+    --fontInconsolata: 'Inconsolata', monospace;
+    --colorPrincipal: #EEEEEE;
+    --colorSecondario: #151515;
+    --colorTerciario: #373A40;
+}
+
+body {
+    font-family: var(--fontMontserrat);
+    background-color: var(--colorPrincipal);
+}
+
+a {
+    text-decoration: none;
+    color: var(--colorSecondario);
+}
+
+a:hover {
+    text-shadow: 2px 2px 4px rgba(131, 131, 131, 1);
+}
