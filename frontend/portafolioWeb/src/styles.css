@@ -11,7 +11,7 @@
     --fontLato: 'Lato', sans-serif;
     --fontMontserrat: 'Montserrat', sans-serif;
     --fontInconsolata: 'Inconsolata', monospace;
-    --colorPrincipal: #EEEEEE;
+    --colorPrincipal: #e8e8e8;
     --colorSecondario: #151515;
     --colorTerciario: #373A40;
 }
@@ -19,13 +19,4 @@
 body {
     font-family: var(--fontMontserrat);
     background-color: var(--colorPrincipal);
-}
-
-a {
-    text-decoration: none;
-    color: var(--colorSecondario);
-}
-
-a:hover {
-    text-shadow: 2px 2px 4px rgba(131, 131, 131, 1);
 }
