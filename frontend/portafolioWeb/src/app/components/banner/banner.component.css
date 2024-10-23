@@ -23,38 +23,10 @@
     color: var(--colorSecondario);
 }
 
-.button-banner button {
-    width: 180px;
-    height: 50px;
+.button-banner app-contact-button {
     margin: 10px;
-
-    font-size: 1.2rem;
-    font-weight: 500;
-
-    border-radius: 5px;
-
-    cursor: pointer;
 }
 
-.cv {
-    background-color: var(--colorSecondario);
-    color: var(--colorPrincipal);
-    border: none;
-}
-
-.contact {
-    color: #090909;
-    padding: 0.7em 1.7em;
-    font-size: 18px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    cursor: pointer;
-    border: 1px solid #e8e8e8;
-    transition: all 0.3s;
-    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
-}
-
-.contact:active {
-    color: #666;
-    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+.button-banner app-cv-button {
+    margin: 10px;
 }
