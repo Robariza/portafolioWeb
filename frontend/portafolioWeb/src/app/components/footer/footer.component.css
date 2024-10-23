@@ -1,5 +1,54 @@
 footer{
     width: 100%;
-    height: 20rem;
+    height: 16rem;
+    padding: 2rem;
     background-color: var(--colorSecondario);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h2{
+    font-family: var(--fontMontserrat);
+    font-weight: 600;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.social-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-container li {
+    cursor: pointer;
+}
+
+.social-container span {
+    font-family: var(--fontInconsolata);
+    font-weight: 600;
 }
