@@ -1,7 +1,15 @@
-<nav>
-    <ul>
-        <li><a href="#">Acerca de mi</a></li>
-        <li><a href="#">Proyectos</a></li>
-        <li><a href="#">Contactame</a></li>
-    </ul>
+<nav [ngClass]="{'scrolled': isScrolled}">
+    <div class="container">
+        <a href="#" class="logo">Robinson Ariza</a>
+        <ul [ngClass]="{'show': isMenuOpen}">
+          <li><a href="#">Acerca de mi</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contactame</a></li>
+        </ul>
+        <button class="menu-toggle" (click)="toggleMenu()" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
 </nav>

@@ -1,12 +1,22 @@
-import { Component } from '@angular/core';
-
+import { Component, HostListener } from '@angular/core';
+import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css'
 })
 export class NavComponent {
+  isScrolled = false;
+  isMenuOpen = false;
 
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    this.isScrolled = window.pageYOffset > 50;
+  }
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }

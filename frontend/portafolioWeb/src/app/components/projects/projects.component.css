@@ -52,3 +52,7 @@
     font-weight: 400;
     color: var(--colorTerciario);
 }
+
+.project-link {
+    gap: 10px;
+}

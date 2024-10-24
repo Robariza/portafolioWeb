@@ -1,7 +1,11 @@
+body {
+    background-color: var(--colorPrincipal);
+}
+
 main h2{
     font-size: 2rem;
     font-weight: 600;
     text-shadow: 1px 1px 4px rgba(131, 131, 131, 1);
     color: var(--colorSecondario);
-    margin: 80px;
+    margin: 130px;
 }

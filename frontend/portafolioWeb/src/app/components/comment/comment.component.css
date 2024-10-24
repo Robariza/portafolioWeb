@@ -21,7 +21,11 @@
     font-style: italic;
 }
 
-.comment span {
+.person-info {
+    text-align: center;
+}
+
+.person-info p {
     font-style: normal;
     font-family: var(--fontMontserrat);
     font-weight: 520;

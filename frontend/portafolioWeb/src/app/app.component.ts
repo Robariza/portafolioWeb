@@ -7,6 +7,7 @@ import { FooterComponent } from "./components/footer/footer.component";
 import { AboutComponent } from "./components/about/about.component";
 import { CommentComponent } from "./components/comment/comment.component";
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
