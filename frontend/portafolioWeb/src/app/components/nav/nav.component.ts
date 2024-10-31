@@ -15,8 +15,4 @@ export class NavComponent {
   onWindowScroll() {
     this.isScrolled = window.pageYOffset > 50;
   }
-
-  toggleMenu() {
-    this.isMenuOpen = !this.isMenuOpen;
-  }
 }
