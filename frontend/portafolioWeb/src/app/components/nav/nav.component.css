@@ -1,4 +1,6 @@
 nav {
+    width: 100%;
+    height: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,8 +19,8 @@ nav.scrolled {
 .container {
     display: flex;
     justify-content: space-between;
+    padding: 0;
     align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -49,12 +51,14 @@ a {
     font-weight: 500;
 }
 
-.menu-toggle {
-    display: none;
+.icons-social {
+    position: absolute;
+    right: 30px;
+    top: 30px;
 }
 
 @media (max-width: 768px) {
-    ul {
+    ul, a {
         display: none;
         flex-direction: column;
         position: absolute;
