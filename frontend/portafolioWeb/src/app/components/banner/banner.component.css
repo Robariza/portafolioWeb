@@ -30,3 +30,26 @@
 .button-banner app-cv-button {
     margin: 10px;
 }
+
+.scroll-down-indicator {
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: bounce 2s ease-in-out infinite;
+}
+
+/* Animación de movimiento hacia abajo */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translate(-50%, 0);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: translate(-50%, 15px); /* Mueve la flecha hacia abajo */
+        opacity: 1;
+    }
+}
