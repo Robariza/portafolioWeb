@@ -1,15 +1,17 @@
 .comment-container {
     width: 100%;
     height: auto;
-    margin-bottom: 5rem;
+    padding: 20px;
+    margin: 5rem 0rem;
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.comment{
+.comment {
     width: 30%;
+    height: auto;
 
     display: flex;
     flex-direction: column;
@@ -21,13 +23,24 @@
     font-style: italic;
 }
 
+.comment img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+
+    border: solid 1px var(--colorSecondario);
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    object-fit: cover;
+}
+
 .person-info {
     text-align: center;
 }
 
-.person-info p {
+.person-info span {
     font-style: normal;
     font-family: var(--fontMontserrat);
-    font-weight: 520;
+    font-weight: 500;
 }
-/* acabar comment img */

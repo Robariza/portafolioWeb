@@ -7,5 +7,5 @@ main h2{
     font-weight: 600;
     text-shadow: 1px 1px 4px rgba(131, 131, 131, 1);
     color: var(--colorSecondario);
-    margin: 130px;
+    margin: 80px 100px 80px;
 }
