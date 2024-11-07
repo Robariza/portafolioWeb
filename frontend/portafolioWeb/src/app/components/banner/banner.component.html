@@ -5,7 +5,8 @@
     </h1>
     <p>Lorem ipsum dolor sit amet.</p>
     <div class="button-banner">
-        <app-contact-button></app-contact-button>
+        <app-contact-button (openModalEvent)="showModal()"></app-contact-button>
+        <app-form-contact *ngIf="isModalOpen" (closeModal)="hideModal()"></app-form-contact>
         <app-cv-button></app-cv-button>
     </div>
     <div class="scroll-down-indicator">
