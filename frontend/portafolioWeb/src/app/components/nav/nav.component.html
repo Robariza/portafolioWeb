@@ -4,7 +4,7 @@
     <ul [ngClass]="{'show': isMenuOpen}">
       <li><a href="#">Acerca de mi</a></li>
       <li><a href="#">Proyectos</a></li>
-      <li (click)="showModal()"><a href="#">Contacto</a></li>
+      <li (click)="showModal()"><a href="#">Contáctame</a></li>
       <app-form-contact *ngIf="isModalOpen" class="no-scroll-style" (closeModal)="hideModal()"></app-form-contact>
     </ul>
     <div class="icons-social">
