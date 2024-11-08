@@ -57,8 +57,15 @@ a {
     top: 30px;
 }
 
+.no-scroll-style {
+    color: initial;
+}
+
+
 @media (max-width: 768px) {
-    ul, a {
+
+    ul,
+    a {
         display: none;
         flex-direction: column;
         position: absolute;
