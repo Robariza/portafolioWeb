@@ -10,11 +10,11 @@ import { Component, EventEmitter, Output} from '@angular/core';
 export class FormContactComponent {
   @Output() closeModal = new EventEmitter<void>();
 
-  close() {
+  close(): void {
     this.closeModal.emit();
   }
 
-  onBackdropClick(event: MouseEvent) {
+  onBackdropClick(event: MouseEvent): void {
     if ((event.target as HTMLElement).classList.contains('modal-backdrop')) {
       this.close();
     }

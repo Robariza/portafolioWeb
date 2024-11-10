@@ -2,20 +2,17 @@
 <div class="modal-content">
   <button class="close-button" (click)="close()">X</button>
   <p>Contácta conmigo</p>
-  <form action="https://formspree.io/f/xvgoawel" method="post">
-    Nombre:
-    <label>
-      <input type="text" name="name" placeholder="Nombre" required />
-    </label>
-    Email:
-    <label>
-      <input type="email" name="email" placeholder="email@example.com" required />
-    </label>
-    Mensaje:
-    <label>
-      <textarea name="message" required placeholder="Ingresa tu mensaje aquí"></textarea>
-    </label>
-    <button type="submit" class="button-submit">
+  <form action="https://formspree.io/f/xvgoawel" method="POST">
+    <label for="name">Nombre:</label>
+    <input id="name" type="text" name="name" placeholder="Nombre" required />
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" name="email" placeholder="email@example.com" required />
+
+    <label for="message">Mensaje:</label>
+    <textarea id="message" name="message" required placeholder="Ingresa tu mensaje aquí"></textarea>
+
+    <button type="submit" class="button-submit" aria-label="Enviar formulario de contacto">
       <div class="svg-wrapper-1">
         <div class="svg-wrapper">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
