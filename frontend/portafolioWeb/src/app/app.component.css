@@ -1,5 +1,6 @@
 body {
     background-color: var(--colorPrincipal);
+    font-size: 1.2rem;
 }
 
 main h2{

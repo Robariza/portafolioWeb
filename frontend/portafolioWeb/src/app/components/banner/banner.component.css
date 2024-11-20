@@ -11,14 +11,14 @@
 }
 
 .banner h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--colorSecondario);
 }
 
-.banner p {
+.banner h3 {
     margin: 30px;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 400;
     color: var(--colorSecondario);
 }

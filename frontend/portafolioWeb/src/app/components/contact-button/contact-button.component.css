@@ -3,7 +3,7 @@
     border: 2px solid var(--colorTerciario);
     background-color: var(--colorSecondario);
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     cursor: pointer;
     border-radius: 15px;
     transition: all 0.4s ease;
