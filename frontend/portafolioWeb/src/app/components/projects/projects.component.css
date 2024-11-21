@@ -49,6 +49,30 @@
     color: var(--colorTerciario);
 }
 
+.skills-list {
+    width: 90%;
+    height: auto;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-list button {
+    width: auto;
+    height: 35px;
+    cursor: inherit;
+    
+    padding: 6px;
+    margin: 2px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--colorSecondario);
+    color: var(--colorPrincipal);
+    font-family: var(--fontLato);
+}
+
 .project-link {
     gap: 10px;
 }

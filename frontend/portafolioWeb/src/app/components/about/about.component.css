@@ -69,14 +69,11 @@
     width: 50%;
     height: auto;
     padding: 20px;
-    gap: 10px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    text-align: center;
 }
 
 .skills p{
@@ -89,18 +86,20 @@
 .skills-list {
     width: 90%;
     height: auto;
+    text-align: center;
+    margin-top: 18px;
 }
 
 .skills-list button {
     width: auto;
-    height: 45px;
+    height: 40px;
     cursor: inherit;
     
-    padding: 10px;
-    margin: 3px;
+    padding: 8px;
+    margin: 2px;
 
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
 
     background-color: var(--colorSecondario);
     color: var(--colorPrincipal);
