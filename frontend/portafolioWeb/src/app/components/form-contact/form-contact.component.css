@@ -127,3 +127,11 @@ textarea {
 .button-submit:hover svg {
   transform: rotate(45deg);
 }
+
+/* Responsive */
+/* Dispositivos pequeños (<576px) */
+@media (max-width: 576px) {
+  .modal-content {
+    width: 370px;
+  }
+}
