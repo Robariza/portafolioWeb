@@ -50,7 +50,17 @@
     }
 
     50% {
-        transform: translate(-50%, 15px); /* Mueve la flecha hacia abajo */
+        transform: translate(-50%, 15px);
+        /* Mueve la flecha hacia abajo */
         opacity: 1;
+    }
+}
+
+/* Responsive */
+
+/* Dispositivos pequeños (<576px) */
+@media (max-width: 576px) {
+    .banner{
+        gap: 1.2rem;   
     }
 }
