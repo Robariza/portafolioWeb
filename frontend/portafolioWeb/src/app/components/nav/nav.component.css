@@ -18,7 +18,7 @@ nav.scrolled {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0;
     align-items: center;
     margin: 0 auto;
@@ -41,14 +41,10 @@ ul {
     padding: 0;
 }
 
-li {
-    margin-left: 1rem;
-}
-
 a {
     text-decoration: none;
     color: inherit;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .icons-social {
@@ -73,45 +69,45 @@ app-form-contact {
     z-index: 1000;
 }
 
-@media (max-width: 768px) {
+/* Responsive */
 
-    ul,
-    a {
-        display: none;
+/* Dispositivos pequeños (<576px) */
+@media (max-width: 576px) {
+    .container{
         flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: var(--colorPrincipal);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        align-items: flex-start;
     }
 
-    ul.show {
-        display: flex;
+    .logo {
+        font-size: 1.8rem;
     }
 
-    li {
-        margin: 0;
+    a {
+        font-weight: 500;
+        font-size: 1rem;
     }
 
-    li a {
-        display: block;
-        padding: 1rem;
+    ul {
+        margin: 1rem 0 0 2rem;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+/* Dispositivos medianos (576px - 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .container{
+        flex-direction: column;
     }
 
-    .menu-toggle {
-        display: block;
-        background: none;
-        border: none;
-        cursor: pointer;
+    a {
+        font-weight: 500;
+        font-size: 1.2rem;
     }
 
-    .menu-toggle span {
-        display: block;
-        width: 25px;
-        height: 3px;
-        background-color: currentColor;
-        margin: 5px 0;
+    ul {
+        margin-top: 1rem;
+        align-items: center;
+        gap: 3rem;
     }
 }

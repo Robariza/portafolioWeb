@@ -10,3 +10,14 @@ main h2{
     color: var(--colorSecondario);
     margin: 80px 100px 80px;
 }
+
+@media (max-width: 576px) {
+    body {
+        font-size: 1rem;
+    }
+
+    main h2{
+        font-size: 1.5rem;
+    }
+}
+
