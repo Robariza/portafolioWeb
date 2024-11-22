@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     padding: 20px;
-    margin: 5rem 0rem;
+    margin: 4rem 0rem;
 
     display: flex;
     justify-content: space-evenly;
@@ -26,7 +26,7 @@
 .comment img {
     width: 100px;
     height: 100px;
-    margin: 20px;
+    margin-bottom: 5px;
 
     border: solid 1px var(--colorSecondario);
     border-radius: 50%;
@@ -39,8 +39,42 @@
     text-align: center;
 }
 
-.person-info span {
-    font-style: normal;
-    font-family: var(--fontMontserrat);
-    font-weight: 500;
+/* Dispositivos pequeños (<576px) */
+@media (max-width: 576px) {
+    .comment-container {
+        flex-direction: column;
+        padding: 0 20px;
+        margin: 2rem 0;
+
+        gap: 50px;
+    }
+
+    .comment {
+        width: 100%;
+    }
+
+    .comment img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Dispositivos medianos (móviles grandes y tablets en vertical, 576px - 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .comment-container {    
+        padding: 0 20px;
+        margin: 2rem 0;
+
+        gap: 50px;
+    }
+
+    .comment {
+        width: 45%;
+ 
+    }
+
+    .comment img {
+        width: 80px;
+        height: 80px;
+    }
 }
