@@ -1,13 +1,14 @@
 <section class="about-container">
     <div class="about-sections">
         <button (click)="changeView('view1')">Habilidades</button>
-        <button (click)="changeView('view2')">Acerca de mí</button>
+        <button (click)="changeView('view2')">Perfil</button>
     </div>
     <!-- about me section -->
     <div class="about-me" *ngIf="currentView === 'view2'">
         <p>Soy un desarrollador frontend con conocimientos fullstack, enfocado en crear experiencias digitales
             efectivas y visualmente atractivas. Trabajo con tecnologías como Angular,React, Node.js y MongoDB, fusionando
             diseño y funcionalidad para ofrecer soluciones web modernas.
+            <br>
             <br>
             Mi pasión por la programación me impulsa a seguir aprendiendo y mejorar constantemente. Busco proyectos que
             desafíen mis habilidades y me permitan crecer como profesional. Si quieres ver más sobre mi proceso, visita
