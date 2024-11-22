@@ -76,3 +76,48 @@
 .project-link {
     gap: 10px;
 }
+
+/* Responsive */
+/* Dispositivos pequeños (<576px) */
+@media (max-width: 576px) {
+    .projects-container {
+        gap: 50px; /* Reducir el espacio entre elementos en pantallas pequeñas */
+    }
+
+    .project {
+        width: 100%;
+        flex-direction: column; /* Cambiar la dirección en pantallas pequeñas */
+    }
+
+    .project img {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .project .project-description {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Dispositivos medianos (576px - 768px) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .projects-container {
+        gap: 100px; /* Reducir el espacio entre elementos en pantallas pequeñas */
+    }
+
+    .project {
+        width: 100%;
+        flex-direction: column; /* Cambiar la dirección en pantallas pequeñas */
+    }
+
+    .project img {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .project .project-description {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
