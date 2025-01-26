@@ -53,6 +53,10 @@ a {
     top: 30px;
 }
 
+.icon-cv {
+    padding-right: 1rem;
+}
+
 .no-scroll-style {
     color: initial;
 }
